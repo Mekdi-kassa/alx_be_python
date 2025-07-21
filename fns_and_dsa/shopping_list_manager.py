@@ -17,10 +17,10 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            item = input()
+            item = input("Enter item to add :")
             shopping_list.append(item)
         elif choice == '2':
-            item = input()
+            item = input("Enter item to remove:")
             shopping_list.remove(item)
         elif choice == '3':
             print("The shopping lists: ",end="")
